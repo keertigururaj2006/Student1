@@ -1,7 +1,7 @@
 import sys
         # Check if correct number of arguement
 if len(sys.argv) != 3:
-    print("Usage: python student.py <name> <rollno>")
+    print("Usage: python student.py <name><rollno>")
     sys.exit(1)
 
 #sys.argv[0] is always the program name
